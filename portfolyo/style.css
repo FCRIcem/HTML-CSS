@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inria+Serif:ital,wght@1,300&family=Playfair+Display:ital,wght@1,800&display=swap');
+
+
+
+
+*{
+    font-family: 'Noto Sans Cypriot';font-size: 19px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rightbar{
+    background-color: rgb(237, 233, 228);
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    color:rgb(237, 233, 228)!important;
+}
+
+/* .css-filtre{
+    filter: grayscale(100%);
+} */
+.karosel-1{
+    width: 50%!important;
+}
+.table-1{
+    padding: 0 6rem;
+}
+@media screen and (max-width: 1400px) {
+    .table-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .karosel-1{
+        width: 40%!important;
+    }
+}
+@media screen and (max-width: 800px) {
+    .table-1{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    .karosel-1{
+        width: 40%!important;
+    }
+    .iletisim-1{
+        position: absolute;
+        top: 0;
+        left: 10;
+        transform: translateX(-30px);
+    }
+}
